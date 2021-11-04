@@ -71,3 +71,4 @@ describe Solver do
       expect { solver.fizzbuzz('something') }.to raise_error(ArgumentError)
     end
   end
+end
